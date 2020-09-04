@@ -14,6 +14,10 @@ You can then access the server on port 3000:
 
 `http://localhost:3000`
 
+You can map the API you're trying to access by setting `API_BASE_URL` to the base URL of the api you want to access in your `.env` file, then making the same call to the proxy server e.g.
+
+Real endpoint: http://a-public-api.com/foo/bar?baz=qux  
+You call: http://localhost:3000/foo/bar?baz=qux
 
 ---
 
